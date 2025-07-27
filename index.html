@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="icon" type="image/x-icon" href="/src/favicon.png" />
+
+    <title>Countdown Until Fall</title>
+  </head>
+  <body>
+    <main id="app" class="main-container">
+      <div class="bg-layer"></div>
+      <div class="bg-layer active"></div>
+      <div class="counter-container">
+        <h1>This app counts down time until Fall of 2025. </br> If you're not feeling the heat tho, carry on!</h1>
+        <div class="counter"></div>
+      </div>
+
+      <audio id="fallSound" loop>
+        <source src="/public/assets/calming-rain-257596.mp3" type="audio/mpeg" />
+      </audio>
+
+      <button class="rain-sound"></button>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
